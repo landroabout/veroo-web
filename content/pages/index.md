@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Veroo
 slug: /
 sections:
   - type: GenericSection
