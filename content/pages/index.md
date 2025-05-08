@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Verouez et dévérouez automatiquement votre AirBnB
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
