@@ -745,3 +745,50 @@ seo:
   type: Seo
 type: PageLayout
 ---
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veroo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Veroo</h1>
+    <p>Click on the buttons below to take action:</p>
+    <button id="loginButton">Login</button>
+    <button id="setupButton">Setup</button>
+
+    <script>
+        // Function to simulate login
+        function login() {
+            alert("Login function called!");
+            // Add your login logic here
+        }
+
+        // Function to simulate sign-up
+        function signUp() {
+            alert("Setup (Sign-Up) function called!");
+            // Add your sign-up logic here
+        }
+
+        // Attach event listeners to buttons
+        document.getElementById("loginButton").addEventListener("click", login);
+        document.getElementById("setupButton").addEventListener("click", signUp);
+    </script>
+</body>
+</html>
+```
