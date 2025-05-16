@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: ###Verrouillez et dévérrouillez automatiquement votre AirBnB
+      text: Verrouillez et dévérrouillez automatiquement votre AirBnB
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
