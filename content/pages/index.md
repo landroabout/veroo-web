@@ -8,8 +8,8 @@ sections:
       color: text-dark
       type: TitleBlock 
     subtitle: Subtitle goes here
-    text: >
-   Disposez vous d'un AirBnB dont vous aimeriez automatiser les entrées et sorties
+    text: > 
+           Disposez vous d'un AirBnB dont vous aimeriez automatiser les entrées et sorties
     actions:
       - label: Login
         url: /login-signup
