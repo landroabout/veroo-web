@@ -4,9 +4,9 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Verrouillez et dévérrouillez automatiquement votre AirBnB
+      text: Verrouillez et dévérrouillez automatiquement votre AirBnB.
       color: text-dark
-      type: TitleBlock
+      type: TitleBlock 
     subtitle: Subtitle goes here
     text: >
    Disposez vous d'un AirBnB dont vous aimeriez automatiser les entrées et sorties
