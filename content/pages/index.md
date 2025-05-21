@@ -12,11 +12,11 @@ sections:
            Disposez vous d'un AirBnB dont vous aimeriez automatiser les entrées et sorties
     actions:
       - label: Login
-        url: /login-signup
+        url: /loginsignup
         type: Button
       - label: Get started
         altText: ''
-        url: /login-signup
+        url: /loginsignup
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -25,7 +25,7 @@ sections:
         type: Button
       - label: See Tutorials
         altText: ''
-        url: /login-signup
+        url: /loginsignup
         showIcon: true
         icon: arrowRight
         iconPosition: right
