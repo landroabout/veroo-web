@@ -27,7 +27,7 @@ sections:
         type: Button
       - label: See Tutorials
         altText: ''
-        url: /
+        url: /login-signup
         showIcon: true
         icon: arrowRight
         iconPosition: right
