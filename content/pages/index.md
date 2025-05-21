@@ -13,9 +13,12 @@ sections:
       instantly reflected in the visual editor and since every visual edit is a
       git commit, git workflows and collaboration just work.
     actions:
+      - label: Login
+        url: /login-signup
+        type: Button
       - label: Get started
         altText: ''
-        url: /
+        url: /login-signup
         showIcon: false
         icon: arrowRight
         iconPosition: right
