@@ -1,6 +1,6 @@
 ---
 title: Login & Signup
-slug: /login-signup
+slug: /loginsignup
 ---
 
 # Welcome to Veroo
