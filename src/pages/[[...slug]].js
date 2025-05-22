@@ -49,7 +49,17 @@ export async function getStaticProps({ params }) {
     const data = allContent();
     const urlPath = '/' + (params.slug || []).join('/');
     const props = await resolveStaticProps(urlPath, data);
-    return { props };
+   // return { props };
+    return {
+  props: {
+    page: {
+      __metadata: {
+        // modelName: data.modelName || null, // Use null instead of undefined
+        ...(data.modelName !== undefined ? { modelName: data.modelName } : {})
+      }
+    }
+  }
+};
 }
 
 export default Page;
