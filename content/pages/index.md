@@ -11,9 +11,6 @@ sections:
     text: > 
            Disposez vous d'un AirBnB dont vous aimeriez automatiser les entrées et sorties
     actions:
-      - label: Login
-        url: /loginsignup
-        type: Button
       - label: Get started
         altText: ''
         url: /loginsignup
