@@ -1,0 +1,41 @@
+import React from "react";
+
+const buttonStyle: React.CSSProperties = {
+  margin: "10px",
+  padding: "10px 20px",
+  fontSize: 16,
+  cursor: "pointer",
+};
+
+export default function LoginSignupButtons() {
+  const handleLogin = () => {
+    alert("Login function called!");
+    // TODO: Add your login logic here
+  };
+
+  const handleSignUp = () => {
+    alert("Sign-Up function called!");
+    // TODO: Add your sign-up logic here
+  };
+
+  return (
+    <div style={{ textAlign: "center", marginTop: 30 }}>
+      <button
+        type="button"
+        style={buttonStyle}
+        onClick={handleLogin}
+        aria-label="Login"
+      >
+        Login
+      </button>
+      <button
+        type="button"
+        style={buttonStyle}
+        onClick={handleSignUp}
+        aria-label="Sign Up"
+      >
+        Sign Up
+      </button>
+    </div>
+  );
+}
