@@ -13,15 +13,15 @@ sections:
            [About Us](/about)
     actions:
   ...
-  - label: About Us
-    altText: ''
-    url: /about
-    showIcon: false
-    icon: info
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: Button
+     - label: About Us
+       altText: ''
+       url: /about
+       showIcon: false
+       icon: info
+       iconPosition: right
+       style: secondary
+       elementId: ''
+       type: Button
     actions:
       - label: Get started
         altText: ''
