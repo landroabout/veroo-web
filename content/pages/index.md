@@ -10,6 +10,7 @@ sections:
     subtitle: Subtitle goes here
     text: > 
            Disposez vous d'un AirBnB dont vous aimeriez automatiser les entrées et sorties
+           [About Us](/about)
     actions:
       - label: Get started
         altText: ''
