@@ -33,7 +33,7 @@ sections:
       url: /images/main-hero.svg
       altText: Unblock your team boost your time to production preview
       elementId: ''
-     
+     type: ImageBlock
     badge:
       label: Add your place
       color: text-primary
