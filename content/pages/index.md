@@ -33,31 +33,28 @@ sections:
       url: /images/main-hero.svg
       altText: Unblock your team boost your time to production preview
       elementId: ''
-      type: ImageBlock 
-
-# Add a new block for store icons below
-storeIcons:
-  type: ContainerBlock
-  styles:
-    self:
-      flexDirection: row
-      gap: 16px
-      marginTop: 16px
-  items:
-    - type: ImageBlock
-      url: /images/google-play-badge.svg
-      altText: Get it on Google Play
-      link: https://play.google.com/store/apps/details?id=your.app.id
-      styles:
-        self:
-          height: 48px
-    - type: ImageBlock
-      url: /images/apple-app-store-badge.svg
-      altText: Download on the App Store
-      link: https://apps.apple.com/app/idYOUR_APP_ID
-      styles:
-        self:
-          height: 48px
+      type    media:
+      - url: /images/main-hero.svg
+        altText: Unblock your team boost your time to production preview
+        elementId: ''
+        type: ImageBlock
+      - url: /images/google-play-badge.svg
+        altText: Get it on Google Play
+        elementId: ''
+        type: ImageBlock
+        link: https://play.google.com/store/apps/details?id=your.app.id
+        styles:
+          self:
+            height: 48px
+            marginRight: 8px
+      - url: /images/apple-app-store-badge.svg
+        altText: Download on the App Store
+        elementId: ''
+        type: ImageBlock
+        link: https://apps.apple.com/app/idYOUR_APP_ID
+        styles:
+          self:
+            height: 48px
     badge:
       label: Add your place
       color: text-primary
