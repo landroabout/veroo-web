@@ -33,12 +33,7 @@ sections:
       url: /images/main-hero.svg
       altText: Unblock your team boost your time to production preview
       elementId: ''
-      type: ImageBlock
-media:
-  url: /images/main-hero.svg
-  altText: Unblock your team boost your time to production preview
-  elementId: ''
-  type: ImageBlock
+      type: ImageBlock 
 
 # Add a new block for store icons below
 storeIcons:
