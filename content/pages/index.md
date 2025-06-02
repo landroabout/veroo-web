@@ -12,9 +12,16 @@ sections:
            Disposez vous d'un AirBnB dont vous aimeriez automatiser les entrées et sorties
            [About Us](/about)
     actions:
+      - label: Login
+        url: /login
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
       - label: Get started
         altText: ''
-        url: /loginsignup
+        url: /login
         showIcon: false
         icon: arrowRight
         iconPosition: right
