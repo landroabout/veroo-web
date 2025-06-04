@@ -1,15 +1,5 @@
-# Login
-
-## Navigation
-
-- [Home](/)
-- [About](/about)
-- [Contact](/contact)
-- [Login](/login)
 
 ---
-
-## Login Form
 
 **Username:**  
 [ _______________________ ]
