@@ -738,8 +738,8 @@ sections:
     colors: bg-light-fg-dark
     type: GenericSection
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
+  metaTitle: Home - Veroo
+  metaDescription: Veroo teh smart lock system to lock your Airbnb.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
