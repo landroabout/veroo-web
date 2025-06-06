@@ -49,8 +49,8 @@ sections:
           placeholder: Votre mot de passe
           isRequired: true
           width: full
-          type: PasswordFormControl
-      elementId: login-form
+          type: EmailFormControl
+      elementId: contact-form
       styles:
         self:
           padding:
