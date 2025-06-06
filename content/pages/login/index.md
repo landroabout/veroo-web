@@ -4,7 +4,7 @@ slug: /login
 sections:
   - type: GenericSection
     title:
-      text: Connectez-vous à votre compte Veroo
+      text: 
       color: text-dark
       type: TitleBlock
     subtitle: Accédez à votre espace personnel
