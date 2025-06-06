@@ -50,7 +50,7 @@ sections:
           isRequired: true
           width: full
           type: PasswordFormControl
-      elementId: login-form
+      elementId: contact-form
       styles:
         self:
           padding:
