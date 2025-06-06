@@ -49,7 +49,7 @@ sections:
           placeholder: Votre mot de passe
           isRequired: true
           width: full
-          type: PasswordFormControl
+          type: EmailFormControl
       elementId: contact-form
       styles:
         self:
