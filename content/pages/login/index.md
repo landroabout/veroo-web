@@ -29,11 +29,11 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-- type: EmailFormControl
+ - type: EmailFormControl
     title:
-      text: Formulaire de connexion
-      color: text-primary
-      type: TitleBlock
+         text: Formulaire de connexion
+         color: text-primary
+         type: TitleBlock
     media:
       fields:
         - name: email
