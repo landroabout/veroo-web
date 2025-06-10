@@ -33,21 +33,21 @@ sections:
     elementId: login-form
     title: Login to your account
     submitButton:
-    type: SubmitButtonFormControl
-    label: Login
-    style: primary
-    icon: arrowRight
-    showIcon: true
+      type: SubmitButtonFormControl
+      label: Login
+      style: primary
+      icon: arrowRight
+      showIcon: true
 
  - type: SignupFormBlock
    elementId: signup-form
-    title: Create an account
-    submitButton:
-    type: SubmitButtonFormControl
-    label: Sign Up
-    style: primary
-    icon: arrowRight
-    showIcon: true
+   title: Create an account
+   submitButton:
+     type: SubmitButtonFormControl
+     label: Sign Up
+     style: primary
+     icon: arrowRight
+     showIcon: true
     colors: bg-light-fg-dark
 seo:
   metaTitle: Connexion - Veroo
