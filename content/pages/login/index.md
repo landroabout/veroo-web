@@ -2,8 +2,7 @@
 title: Connexion
 slug: /login
 sections:
-<!--
-- type: GenericSection
+<!-- - type: GenericSection
     title:
       text: Connectez-vous à votre compte Veroo
       color: text-dark
@@ -29,8 +28,7 @@ sections:
           - pt-16
           - pl-16
           - pb-16
-          - pr-16
--->
+          - pr-16 -->
   - type: LoginFormBlock
     elementId: login-form
     title: Login to your account
