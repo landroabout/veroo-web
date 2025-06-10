@@ -22,7 +22,7 @@ export async function signUp() {
 }
 
 // Function to handle user log-in
-export async function logIn() {
+export async function logIn(email, password) {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
