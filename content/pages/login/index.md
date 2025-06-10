@@ -29,20 +29,20 @@ sections:
           - pl-16
           - pb-16
           - pr-16
- - type: LoginFormBlock
-  elementId: login-form
-  title: Login to your account
-  submitButton:
+  - type: LoginFormBlock
+    elementId: login-form
+    title: Login to your account
+    submitButton:
     type: SubmitButtonFormControl
     label: Login
     style: primary
     icon: arrowRight
     showIcon: true
 
-- type: SignupFormBlock
-  elementId: signup-form
-  title: Create an account
-  submitButton:
+ - type: SignupFormBlock
+   elementId: signup-form
+    title: Create an account
+    submitButton:
     type: SubmitButtonFormControl
     label: Sign Up
     style: primary
