@@ -1,7 +1,3 @@
----
-title: Connexion
-slug: /login
-sections:
 <!-- - type: GenericSection
     title:
       text: Connectez-vous à votre compte Veroo
@@ -29,6 +25,10 @@ sections:
           - pl-16
           - pb-16
           - pr-16 -->
+---
+title: Connexion
+slug: /login
+sections:
   - type: LoginFormBlock
     elementId: login-form
     title: Login to your account
