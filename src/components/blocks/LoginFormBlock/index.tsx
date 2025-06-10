@@ -1,6 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import SubmitButtonFormControl from '../FormBlock/SubmitButtonFormControl';
+import { signUp, logIn } from '../../utils/indexer/app';
 
 export default function LoginFormBlock(props) {
     const { elementId = 'login-form', title = 'Login', submitButton } = props;
@@ -14,14 +15,15 @@ export default function LoginFormBlock(props) {
         setLoading(true);
         const data = new FormData(formRef.current);
         try {
-            const response = await fetch('/api/login', {
+            /*const response = await fetch('/api/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     email: data.get('email'),
                     password: data.get('password')
                 })
-            });
+            });*/
+            await logIn(data.get('email'), data.get('password'));
             if (!response.ok) throw new Error('Login failed');
             // Optional: redirect or show success
         } catch (err) {
