@@ -1,4 +1,4 @@
-<!-- - type: GenericSection
+< - type: GenericSection
     title:
       text: Connectez-vous à votre compte Veroo
       color: text-dark
@@ -24,7 +24,7 @@
           - pt-16
           - pl-16
           - pb-16
-          - pr-16 -->
+          - pr-16 >
 ---
 title: Connexion
 slug: /login
