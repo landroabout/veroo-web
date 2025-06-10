@@ -38,6 +38,8 @@ import { ThemeStyleHeading } from './ThemeStyleHeading';
 import { ThemeStyleLink } from './ThemeStyleLink';
 import { TitleBlock } from './TitleBlock';
 import { VideoBlock } from './VideoBlock';
+import { LoginFormBlock } from './LoginFormBlock';
+import { SignupFormBlock } from './SignupFormBlock';
 
 import { MetaTag } from './MetaTag';
 import { FooterLinksGroup } from './FooterLinksGroup';
@@ -75,6 +77,8 @@ export const allModels = {
     SelectFormControl,
     Social,
     SubNav,
+    LoginFormBlock,
+    SignupFormBlock,
     SubmitButtonFormControl,
     TextFormControl,
     TextareaFormControl,
