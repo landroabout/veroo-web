@@ -24,7 +24,7 @@ export default function LoginFormBlock(props) {
                 })
             });*/
             await logIn(data.get('email'), data.get('password'));
-            if (!response.ok) throw new Error('Login failed');
+           // if (!response.ok) throw new Error('Login failed');
             // Optional: redirect or show success
         } catch (err) {
             setError('Login failed. Please try again.');
