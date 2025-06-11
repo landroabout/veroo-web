@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import SubmitButtonFormControl from '../FormBlock/SubmitButtonFormControl';
-import { signUp} from '../../utils/indexer/app';
+import { signUp} from '../../../utils/indexer/app';
 
 export default function SignupFormBlock(props) {
     const { elementId = 'signup-form', title = 'Sign Up', submitButton } = props;
@@ -24,7 +24,7 @@ export default function SignupFormBlock(props) {
                 })
             });*/
                await signUp(data.get('email'), data.get('password'));
-            if (!response.ok) throw new Error('Signup failed');
+           // if (!response.ok) throw new Error('Signup failed');
             // Optional: redirect or show success
         } catch (err) {
             setError('Signup failed. Please try again.');
