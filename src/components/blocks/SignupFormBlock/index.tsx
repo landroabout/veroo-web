@@ -27,7 +27,7 @@ export default function SignupFormBlock(props) {
            // if (!response.ok) throw new Error('Signup failed');
             // Optional: redirect or show success
         } catch (err) {
-            setError(err);
+            setError(err.message);
         } finally {
             setLoading(false);
         }
