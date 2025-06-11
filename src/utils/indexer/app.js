@@ -9,6 +9,9 @@ export async function signUp(data) {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
+             "Access-Control-Allow-Origin": "https://app.google.com",
+             "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+             "Access-Control-Allow-Headers": "Content-Type"
         },
         body:JSON.stringify({
             action: "signUp",
