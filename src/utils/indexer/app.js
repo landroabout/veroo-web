@@ -1,7 +1,7 @@
 // JavaScript file for front-end interaction
 
 // Function to handle user sign-up
-export async function signUp() {
+export async function signUp(email, password) {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
