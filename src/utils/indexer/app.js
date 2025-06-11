@@ -2,7 +2,7 @@
 
 // Function to handle user sign-up
 export async function signUp(email, password) {
-    const email = document.getElementById("email").value;
+    //const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
     const response = await fetch("https://script.google.com/macros/s/AKfycbyugBT5A2vtbLC-j3kir_LCLRNw8KJMXtwS1_xaKOUcld2cIRDBkO91cbEtN691ENWY/exec", {
@@ -23,7 +23,7 @@ export async function signUp(email, password) {
 
 // Function to handle user log-in
 export async function logIn(email, password) {
-    const email = document.getElementById("email").value;
+   // const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
     const response = await fetch("https://script.google.com/macros/s/AKfycbyugBT5A2vtbLC-j3kir_LCLRNw8KJMXtwS1_xaKOUcld2cIRDBkO91cbEtN691ENWY/exec", {
