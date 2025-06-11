@@ -27,7 +27,7 @@ export default function SignupFormBlock(props) {
            // if (!response.ok) throw new Error('Signup failed');
             // Optional: redirect or show success
         } catch (err) {
-            setError(data.get('email'));
+            setError(String(data.get('email')));
         } finally {
             setLoading(false);
         }
