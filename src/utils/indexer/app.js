@@ -10,11 +10,11 @@ export async function signUp(data) {
         headers: {
             "Content-Type": "application/json",
         },
-        body:data, /*JSON.stringify({
+        body:JSON.stringify({
             action: "signUp",
-            email: email,
-            password: password,
-        }),*/
+            email: data, 
+            password: data, 
+        }),
     });
 
     const result = await response.json();
