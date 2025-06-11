@@ -5,7 +5,7 @@ export async function signUp(data) {
     //const email = document.getElementById("email").value;
    // const password = document.getElementById("password").value;
 
-    const response = await fetch("https://script.google.com/macros/s/AKfycbyaqG_yqu8s8Ycpo-WnaLqei8wJlZS9ggILCvc7OZLKSyZIcGO_505lgNPUqPCARhiC/exec", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbzGf4wwSogWbOqQn34GZ6MP7izZlVixg7YdCRTRTs0z7653qu-8QE6l-JxjEJFN-6mC/exec", {
         method: "POST",
         headers: {
             "Content-Type": "application/json", 
