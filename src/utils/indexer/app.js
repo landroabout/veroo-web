@@ -19,6 +19,7 @@ export async function signUp(email, password) {
 
     const result = await response.json();
     alert(result.message); // Show success or error message
+    return result.message;
 }
 
 // Function to handle user log-in
