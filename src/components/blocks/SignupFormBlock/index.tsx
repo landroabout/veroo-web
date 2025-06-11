@@ -1,6 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import SubmitButtonFormControl from '../FormBlock/SubmitButtonFormControl';
+import { signUp, logIn } from '../../utils/indexer/app';
 
 export default function SignupFormBlock(props) {
     const { elementId = 'signup-form', title = 'Sign Up', submitButton } = props;
