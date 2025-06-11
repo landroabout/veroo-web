@@ -1,7 +1,7 @@
 // JavaScript file for front-end interaction
 
 // Function to handle user sign-up
-export async function signUp(email, password) {
+export async function signUp(data) {
     //const email = document.getElementById("email").value;
    // const password = document.getElementById("password").value;
 
@@ -10,11 +10,11 @@ export async function signUp(email, password) {
         headers: {
             "Content-Type": "application/json",
         },
-        body: JSON.stringify({
+        body:data, /*JSON.stringify({
             action: "signUp",
             email: email,
             password: password,
-        }),
+        }),*/
     });
 
     const result = await response.json();
