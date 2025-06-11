@@ -8,10 +8,7 @@ export async function signUp(data) {
     const response = await fetch("https://script.google.com/macros/s/AKfycbyaqG_yqu8s8Ycpo-WnaLqei8wJlZS9ggILCvc7OZLKSyZIcGO_505lgNPUqPCARhiC/exec", {
         method: "POST",
         headers: {
-            "Content-Type": "application/json",
-             "Access-Control-Allow-Origin": "https://app.google.com",
-             "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
-             "Access-Control-Allow-Headers": "Content-Type"
+            "Content-Type": "application/json", 
         },
         body:JSON.stringify({
             action: "signUp",
