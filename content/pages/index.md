@@ -739,7 +739,7 @@ sections:
     type: GenericSection
 seo:
   metaTitle: Home - Veroo
-  metaDescription: Veroo teh smart lock system to lock your Airbnb.
+  metaDescription: Veroo the smart lock system to lock your Airbnb.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
