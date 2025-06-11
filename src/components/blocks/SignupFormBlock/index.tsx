@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import SubmitButtonFormControl from '../FormBlock/SubmitButtonFormControl';
-import { signUp, logIn } from '../../utils/indexer/app';
+import { signUp} from '../../utils/indexer/app';
 
 export default function SignupFormBlock(props) {
     const { elementId = 'signup-form', title = 'Sign Up', submitButton } = props;
@@ -15,14 +15,15 @@ export default function SignupFormBlock(props) {
         setLoading(true);
         const data = new FormData(formRef.current);
         try {
-            const response = await fetch('/api/signup', {
+            /*const response = await fetch('/api/signup', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     email: data.get('email'),
                     password: data.get('password')
                 })
-            });
+            });*/
+               await signUp(data.get('email'), data.get('password'));
             if (!response.ok) throw new Error('Signup failed');
             // Optional: redirect or show success
         } catch (err) {
