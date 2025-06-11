@@ -12,8 +12,8 @@ export async function signUp(data) {
         },
         body:JSON.stringify({
             action: "signUp",
-            email: data, 
-            password: data, 
+            email: data.get('email'),
+            password: data.get('password')
         }),
     });
 
