@@ -23,11 +23,11 @@ export default function SignupFormBlock(props) {
                     password: data.get('password')
                 })
             });*/
-               await signUp(data.get('email'), data.get('password'));
+            const err_m  = await signUp(data.get('email'), data.get('password'));
            // if (!response.ok) throw new Error('Signup failed');
             // Optional: redirect or show success
         } catch (err) {
-            setError('Signup failed. Please try again.');
+            setError(err_m);
         } finally {
             setLoading(false);
         }
