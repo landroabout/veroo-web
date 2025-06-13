@@ -73,7 +73,7 @@
         {
             "label": "Sign up",
             "altText": "Sign up",
-            "url": "/signinsignup",
+            "url": "/login",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -81,7 +81,7 @@
         },
         {
             "label": "Log in",
-            "url": "/",
+            "url": "/login",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",
